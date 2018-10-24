@@ -9,18 +9,69 @@
     box-sizing: border-box;
 }
 
-menu{
-    height: 35%;
-    width: 100%;
-    padding: 20px 100px;
+a{
+    text-decoration: none;
+    color:white;
 }
 
+body{
+    font-family: roboto,lato,sans-serif;
+}
 
+.menu{
+    background: url(../img/megabanner.jpg);
+    color:white;
+    padding: 12px 100px;
+    height: 30%;
+
+
+}
+
+header{
+    padding-bottom: 20px;
+    content: "";
+    border-bottom: 1px solid white;
+}
+
+nav{
+    margin-top:40px;
+}
+
+.donation button{
+    margin-left: 10px;
+    border: none;
+    background: #F9B02D;
+    height: 60px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 1em;
+    color: white;
+}
+
+.donation button:hover{
+    background: #05B2E6;
+}
 
 .icons{
-    float:left;
+    display: inline-block;
+    opacity: 1;
+    height: 60px;  
+    padding:20px;
 }
 
+.fab{
+    font-size: 1.2em;
+}
+
+.fab:hover{
+    color: #05B2E6;
+}
+
+
 .donation{
+    font-size: 1.2em;
+    height: 60px;
+    padding-left: 10px;
+    opacity: 1;
     float: right;
 }
