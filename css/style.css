@@ -14,17 +14,12 @@ a{
     color:white;
 }
 
-body{
+menu{
     font-family: roboto,lato,sans-serif;
-}
-
-.menu{
     background: url(../img/megabanner.jpg);
     color:white;
     padding: 12px 100px;
     height: 30%;
-
-
 }
 
 header{
@@ -37,7 +32,7 @@ nav{
     margin-top:40px;
 }
 
-.donation button{
+.btn-donation{
     margin-left: 10px;
     border: none;
     background: #F9B02D;
@@ -48,7 +43,7 @@ nav{
     color: white;
 }
 
-.donation button:hover{
+.btn-donation:hover{
     background: #05B2E6;
 }
 
@@ -56,7 +51,8 @@ nav{
     display: inline-block;
     opacity: 1;
     font-size: 1.3em;
-    padding:19px;
+    margin-top: 10px;
+    padding:10px 20px;
 }
 
 
@@ -82,11 +78,10 @@ a:hover{
 
 .doe{
     border-radius: 20px;
-    background: #86BC24;
     padding: 10px;
 }
 
-nav ul li{
+.nav ul li{
     clear: both;
     display: inline;
     list-style: none;
@@ -96,22 +91,14 @@ nav ul li{
     margin-left: 20px;
 }
 
-#menubv {
-width: 12em;
-padding: 0;
-margin: 0;
-font: 14px Verdana, sans-serif;
-}
-#menubv ul {
-list-style: none;
-margin: 0;
-padding: 0;
-}
-#menubv li {
-border-bottom: 1px solid #f00;
-margin: 0;
+.conteudo{
+    text-align: center;
+    padding: 150px;
 }
 
-.links ul{
-    display: inline;
+.primeiro-item-txt{
+    font-family: lato;
+    font-weight: bolder;
+    font-size: 3em;
+    margin-bottom: 20px;
 }
