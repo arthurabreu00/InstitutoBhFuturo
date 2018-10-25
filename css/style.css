@@ -216,9 +216,9 @@ main{
 }
 
 .box-1 .fas{
-    color: var(--verde);
+    color: rgb(226, 63, 63);
     font-size: 3em;
-    background: #d3d3d3;
+    background: #f8f8f8;
     border-radius: 100%;
     padding: 20px;
     margin: 20px 0;
