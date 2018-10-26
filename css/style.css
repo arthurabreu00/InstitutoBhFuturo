@@ -2,13 +2,94 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
-body{
+
+.bgDesktop{
+    color:white;
+    background: url(../img/megabanner.jpg);
+}
+
+
+.bgExemplo{
+    background: url(../img/megabanner.jpg);
+}
+
+.txt-exp{
+    font-size: 2.5rem;
+    font-family: lato, roboto , sans-serif;
+    color:white;
+    font-weight: 600;
+    margin-top:20px;
+
+}
+
+.conteudo-exemplo{
+    text-align: center;
+    margin: 20px;    
+}
+
+
+.desc{
+    margin-top: 20px;
+    color:#5e5e5e;
+}
+
+.mn-exemplo{
+    text-align: justify;
+}
+
+.mn-exemplo h2{
+    margin-top:15px;
+    text-align: center;
+}
+
+.mn-exemplo .desc{
+    text-align: center;
+}
+
+.mn-exemplo p{
+    margin-top:20px;
     font-family: roboto,lato,sans-serif;
 }
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+.boxs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 30px;
 }
 
+.box-1{
+    display: inline-block;
+    text-align: center;
+    width: 33.333%;
+    max-width: 340px;
+    margin-right: 10px;
+}
 
+.box-1{
+
+    padding: 20px;
+    border: 1px solid #979797;
+}
+
+.box-1 h2{
+    margin-bottom: 10px;
+}
+
+.box-1 p {
+    text-align: justify;
+}
+
+.box-1 .fas{
+    color: rgb(226, 63, 63);
+    font-size: 3em;
+    background: #f8f8f8;
+    border-radius: 100%;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.box-1 img{
+    width: 100%;
+}
