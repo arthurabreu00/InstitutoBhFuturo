@@ -59,6 +59,7 @@ header{
 }
 
 .icons{
+    position: relative;
     display: inline-block;
     opacity: 1;
     font-size: 1.3em;
