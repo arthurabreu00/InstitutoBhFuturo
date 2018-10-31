@@ -1,0 +1,27 @@
+{
+  "name": "institutobhfuturo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arthurabreu00/InstitutoBhFuturo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arthurabreu00/InstitutoBhFuturo/issues"
+  },
+  "homepage": "https://github.com/arthurabreu00/InstitutoBhFuturo#readme",
+  "dependencies": {
+    "bootstrap": "4.1.1",
+    "jquery": "3.3.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1"
+  }
+}

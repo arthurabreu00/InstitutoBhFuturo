@@ -1,4 +1,3 @@
-
 :root{
     --vermelho : #E94E25;
     --azul : #05B2E6;
@@ -12,14 +11,42 @@
     box-sizing: border-box;
 }
 
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .business-header {
+    height: 50vh;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  .card {
+    height: 100%;
+  }
+  
+  body{
+    font-family: roboto,lato,sans-serif;
+    padding-top: 54px;
+  }
 
-a{
+  .btn-donation{
+    background:  #F9B02D;
+}
+
+/* a{
     text-decoration: none;
     color:white;
 }
 
 body{
     font-family: roboto,lato,sans-serif;
+
 }
 
 .menu{
@@ -38,15 +65,7 @@ header{
     margin-top:40px;
 }
 
-.btn-donation{
-    color: white;
-    border: none;
-    background: var(--amarelo);
-    height: 60px;
-    width: 200px;
-    cursor: pointer;
-    font-size: 1em;
-}
+
 
 .btn-donation:hover{
     background: var(--azul);
@@ -59,6 +78,7 @@ header{
 }
 
 .icons{
+    position: relative;
     display: inline-block;
     opacity: 1;
     font-size: 1.3em;
@@ -88,10 +108,7 @@ header{
     margin-top: -40px;
 }
 
-.doe{
-    border-radius: 20px;
-    padding: 10px;
-}
+
 
 .nav ul li{
     clear: both;
@@ -117,9 +134,6 @@ header{
     border-bottom: 1px solid white;
 }
 
-.drop_menu li span.doe:hover{
-    border-bottom: none;
-}
 
 .drop_menu li:hover ul {
 	background: none;
@@ -185,5 +199,4 @@ footer{
 
 .txt-rodape{
     color:white;
-    font-size: 1.2em;
-}
+     */
