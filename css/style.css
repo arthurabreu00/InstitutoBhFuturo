@@ -92,3 +92,7 @@
 .box-1 img{
     width: 100%;
 }
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}

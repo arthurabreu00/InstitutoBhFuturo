@@ -11,6 +11,10 @@
     box-sizing: border-box;
 }
 
+.btn-donation{
+    background:  #F9B02D !important;
+}
+
 @media (min-width: 992px) {
     body {
       padding-top: 56px;
@@ -35,9 +39,33 @@
     padding-top: 54px;
   }
 
-  .btn-donation{
-    background:  #F9B02D;
+.badge {
+    display: inline-block;
+    padding: 2px 20px; 
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
 }
+
+.donation {
+    color: white !important;
+    background-color: var(--amarelo);
+    font-size: 1em;
+}
+
+.donation:hover{
+    border: none;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0,);
+
+    border-bottom: 1px solid black;
+    margin-top: 5px;
+}
+
 
 /* a{
     text-decoration: none;
