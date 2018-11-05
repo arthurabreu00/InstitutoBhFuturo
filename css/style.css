@@ -2,6 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Roboto');
 
 
+:root{
+    --vermelho : #E94E25;
+    --azul : #05B2E6;
+    --amarelo: #F9B02D;
+    --verde: #86BC24;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
 .bgDesktop{
     color:white;
     background: url(../img/megabanner.jpg);
@@ -96,3 +111,77 @@
 .navbar-light .navbar-nav .nav-link {
     color: black;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+}
+
+.btn-donation{
+    background:  #F9B02D !important;
+}
+
+@media (min-width: 992px) {
+    body {
+      padding-top: 56px;
+    }
+  }
+  
+  .business-header {
+    height: 50vh;
+    min-height: 300px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
+
+  
+  
+  .card {
+    height: 100%;
+  }
+  
+  body{
+    font-family: roboto,lato,sans-serif;
+    padding-top: 54px;
+  }
+
+.badge {
+    display: inline-block;
+    padding: 5px 20px; 
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    margin-left: 10px;
+}
+
+.donation {
+    color: white !important;
+    background-color: var(--amarelo);
+    font-size: 1em;
+}
+
+.nav-link:hover {
+    color: rgba(0, 0, 0,);
+    border-bottom: 1px solid black;
+}
+
+.badge:hover,.donation:hover{
+    border: none;
+    background: var(--azul)
+    
+}
+
+@media (max-width: 992px){
+    .badge{
+        margin-left: 0;
+        margin-top : 10px;
+    }
+
+    .nav-link:hover {
+        border-width: 1px
+    }
+}
+
