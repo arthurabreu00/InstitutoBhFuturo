@@ -166,6 +166,7 @@
 .nav-link:hover {
     color: rgba(0, 0, 0,);
     border-bottom: 1px solid black;
+    border-width: 1px;
 }
 
 .badge:hover,.donation:hover{
@@ -179,9 +180,5 @@
         margin-left: 0;
         margin-top : 10px;
     }
-
-    .nav-link:hover {
-        border-width: 1px
-    }
-}
+} 
 
