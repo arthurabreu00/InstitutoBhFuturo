@@ -1,104 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Instituto BH Futuro - Exemplo</title>
-    <link rel="stylesheet" href="../../css/style.css" />
-    <link rel="stylesheet" href="../../css/index.css" />
-    <link rel="stylesheet" href="../css/subpages.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Instituto BH Futuro</title>
+
+  <link href="../../img/icon.png" rel="icon">
+  <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+
+  <link href="../../css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Padrão de nav-bar -->
-    <menu class="menu bgExemplo">
-        <header id="header-sub-page">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="../../index.html"><img src="../../img/logo-ibhf.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
 
-            <div class="logo">
-                <a href="../index.html" ><img src="../img/logo-ibhf-branco.png" /></a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              IBHF
+            </a>
+
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../../pages/IBHF/oqueFazemos.html">Sobre nós</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="../../pages/IBHF/historia.html">Historia</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Oque fazemos</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Oficinas</a>
+
             </div>
+          </li>
 
-            <div class="icons-subpage">
-                <div class=" icons facebook">
-                    <a href="https://www.facebook.com/institutobhfuturo" target="_blank">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </div>
 
-                <div class="icons twitter">
-                    <a href="https://twitter.com/bhfuturo" target="_blank">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </div>
 
-                <div class="icons instagram">
-                    <a href="https://www.instagram.com/bhfuturo/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </div>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Contato</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">Apoiadores </a>
+          </li>
+          <li class="nav-item">
+            <span class="badge donation"><a class="nav-link donation" href="#">Doação</a></span>
+          </li>
 
-            <div class="donation">
-                <button id="btn-donation-subpage" class="btn-donation">
-                    Doe:
-                    <i class="fas fa-hand-holding-usd"></i>
-                </button>
-            </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="container">
+    <div class="contato">
+      <h1>Contato</h1>
+      <div class="cnt">
+        <h2>Fale conosco:</h2>
+        <p>
+          (31) 3259-4015 / (31) 3259-3885
+        </p>
+      </div>
+      <div class="cnt">
+        <h2>E-mail:</h2>
+        <p>contato@institutobhfuturo.org.br</p>
+      </div>
+      <div class="cnt">
+        <h2>Endereço:</h2>
+        <p>Rua Desembargador Mário Matos, 578, Serra.</p>
+        <p>Belo Horizonte, MG. CEP 30220-410</p>
+      </div>
+      <form action="form.php" method="post">
 
-            <div id="nav-subpage">
-                <nav id="nav-bar">
-                    <div class="nav">
-                            <ul class="drop_menu">
-                                    <li><a href="#">IBHF</a>
-                                        <ul>
-                                            <li><a href="../IBHF/historia.html">História</a></li>
-                                            <li><a href="pages/IBHF/oqueFazemos.html">Oque fazemos</a></li>
-                                            <li><a href="#">Diretoria e Conselho</a></li>
-                                        </ul>
-                                    </li>
-                
-                                    <li><a href="#">Noticias</a></li>
-                                    <li><a href="#">Apoiadores</a></li>
-                                    <li><a href="#">Contato</a></li>
-                                    <li><a href="pages/Doacao/doe.html"><span class="btn-donation doe">Doe Agora</span> </a></li>
-                                </ul>
-                    </div>
-                    <br>
-                </nav>
-            </div>
-        </header>
-
-        
-            
-        <!-- Fim do padrão -->
-        <div>
-
-            <div class="conteudo-exemplo">
-                <div class="primeiro-item">
-                    <h1 class="txt-exp"> Lorem ipsum dolor </h1>
-                </div>
-            </div>
+        <div class="form-group">
+          <label for="">Nome</label>
+          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Digite seu nome">
         </div>
-    </menu>
 
-    <main class="mn-exemplo">
-        <h1 class="conteudo-exemplo"> Fale com a gente  </h1>
-        <h3 class="desc"> </h3>
+        <div class="form-group">
+          <label for=""> E-mail </label>
+          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Digite seu E-mail">
+        </div>
+      
 
-        <p>
-            
-        </p>
+      <div class="form-group">
+          <label for="">Assunto</label>
+          <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="Digite o assunto">
+      </div>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis nam ex, necessitatibus in quas repellendus tempora error eum quod dicta ullam! Non eos enim sint aut doloribus nisi praesentium eaque.
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci rem optio soluta quod? Facere itaque magnam impedit quisquam consequuntur voluptatem eveniet minus eaque, velit porro reprehenderit vero corrupti voluptates est?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus fugit, nemo minima libero accusantium reiciendis nostrum officia delectus expedita optio ullam distinctio fuga veniam hic praesentium? Vitae repellat obcaecati dolores.
-        </p>
-    </main>
+      <div class="form-group">
+        <label for="">Mensagem</label>
+        <textarea class="form-control" name="" id="" rows="3" placeholder="Digite a sua mensagem"></textarea>
+      </div>
 
+      </form>
+
+    </div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.6429147354283!2d-43.914320684494164!3d-19.939446986598472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699a250148705%3A0xef566cafb0a6ce74!2sR.+Des.+Mario+Matos%2C+564+-+Serra%2C+Belo+Horizonte+-+MG%2C+30220-410!5e0!3m2!1spt-BR!2sbr!4v1528830642861" width="600" height="450" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+
+
+  </main>
+
+
+
+  </header>
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
