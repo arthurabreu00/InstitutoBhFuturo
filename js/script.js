@@ -1,11 +1,17 @@
-// jQuery(function () {
-//     jQuery(window).scroll(()=> {
-//      if (jQuery(this).scrollTop() > 400) {
-//       $("nav").css('background', 'rgba(30,156,161,1)')
-//       $("nav").css('display', 'fixed');
-//      } else {
-//       $("nav").css('display','block');
-//       $("nav").css('background', 'none');
-//      }
-//     });
-//    });
+
+
+document.querySelector('.form-submit').addEventListener('submit',btn=>{
+    btn.preventDefault();
+
+    document.querySelectorAll('.form-control').forEach(e=>{
+        document.querySelectorAll('.form-group').forEach(f => {
+            if(e.value == ''){
+                f.innerHTML += `<div class="alert alert-danger" role="alert">
+                Um simples alerta danger. Olha só!
+              </div>`
+            };
+        });
+
+    });
+    
+})

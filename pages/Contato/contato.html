@@ -17,7 +17,7 @@
 
 </head>
 
-<body>
+<body class="body">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -83,29 +83,48 @@
         <p>Rua Desembargador Mário Matos, 578, Serra.</p>
         <p>Belo Horizonte, MG. CEP 30220-410</p>
       </div>
-      <form action="form.php" method="post">
+
+
+      <form class="form-contato" action="form.php" method="post" data-toggle="validator" role="form">
 
         <div class="form-group">
-          <label for="">Nome</label>
-          <input type="text" class="form-control" name="" id="" required  placeholder="Digite seu nome">
+          <label  class="control-label">Nome</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text"> <i class="fas fa-user-alt"></i> </div>
+            </div>
+          <input type="text" class="form-control" name="nome" placeholder="Digite seu nome">
         </div>
 
         <div class="form-group">
-          <label for=""> E-mail </label>
-          <input type="email" class="form-control" name="" id="" required  placeholder="Digite seu E-mail">
+          <label  class="control-label"> E-mail </label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text"><i class="fas fa-at"></i></div>
+            </div>
+          <input type="email" class="form-control" name="email" laceholder="Digite seu E-mail">
         </div>
+
+        
       
 
       <div class="form-group">
-          <label for="">Assunto</label>
-          <input type="text" class="form-control" name="" id="" required placeholder="Digite o assunto">
+          <label class="control-label">Assunto</label>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text"><i class="fas fa-comment-alt"></i>
+              </div> 
+            </div>
+          <input type="text" class="form-control" name="assunto"  placeholder="Digite o assunto">
+          
       </div>
 
       <div class="form-group">
-        <label for="">Mensagem</label>
-        <textarea class="form-control" name="" id="" rows="3" required placeholder="Digite a sua mensagem"></textarea>
+        <label class="control-label">Mensagem</label>
+
+        <textarea class="form-control" name="" id="" rows="3" placeholder="Digite a sua mensagem"></textarea>
       </div>
-        <button type="submit" class="btn btn-primary"> Enviar </button>
+        <button type="submit" class="btn btn-primary form-submit"> Enviar </button>
       </form>
 
     </div>
@@ -114,11 +133,12 @@
 
 
 
-  </header>
+  
 
-
+  <script src="../../js/script.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
+    <script src="../../node_modules/bootstrap-validator/js/validator.js"></script>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </body>
