@@ -18,8 +18,9 @@
 </head>
 
 <body class="body">
+  <!-- NAVBAR ÍMUTAVEL-->
+<>
 
-  <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
       <a class="navbar-brand" href="../../index.html"><img src="../../img/logo-ibhf.png"></a>
@@ -47,9 +48,6 @@
 
             </div>
           </li>
-
-
-
           <li class="nav-item">
             <a class="nav-link " href="#">Contato</a>
           </li>
@@ -64,8 +62,19 @@
       </div>
     </div>
   </nav>
+
+  <!--  FIM DA NAVBAR ÍMUTAVEL-->
+
+
   <main class="container">
-<div class="row">
+
+  <section id="intro">
+    <div class="container">
+        <h1> Contato </h1>
+        <p> Contato para nos </p>
+    </div>
+  </section>
+  <div class="row">
     <div class="contato col-lg-6">
       <h1>Contato</h1>
       <div class="cnt">
@@ -85,15 +94,16 @@
       </div>
 
 
-      <form class="form-contato" action="form.php" method="post" data-toggle="validator" role="form">
+      <form class="form-contato" action="" method="post" data-toggle="validator" role="form">
 
         <div class="form-group">
           <label  class="control-label">Nome</label>
           <div class="input-group">
             <div class="input-group-prepend">
-              <div class="input-group-text"> <i class="fas fa-user-alt"></i> </div>
+              <div class="input-group-text"><i class="fas fa-user-alt"></i> </div>
             </div>
-          <input type="text" class="form-control" name="nome" placeholder="Digite seu nome">
+          <input type="text" class="form-control" name="nome" placeholder="Digite seu nome" />
+            <div class="help-block with-errors"></div>
         </div>
 
         <div class="form-group">
@@ -102,7 +112,9 @@
             <div class="input-group-prepend">
               <div class="input-group-text"><i class="fas fa-at"></i></div>
             </div>
-          <input type="email" class="form-control" name="email" laceholder="Digite seu E-mail">
+          <input type="email" class="form-control" name="email" placeholder="Digite seu E-mail"
+          data-error="Por favor, informe um e-mail correto.">
+          <div class="help-block with-errors"></div>
         </div>
 
         
@@ -115,14 +127,15 @@
               <div class="input-group-text"><i class="fas fa-comment-alt"></i>
               </div> 
             </div>
-          <input type="text" class="form-control" name="assunto"  placeholder="Digite o assunto">
-          
+          <input type="text" class="form-control" name="assunto"  placeholder="Digite o assunto" />
+          <div class="help-block with-errors"></div>
       </div>
 
       <div class="form-group">
         <label class="control-label">Mensagem</label>
 
         <textarea class="form-control" name="" id="" rows="3" placeholder="Digite a sua mensagem"></textarea>
+        <div class="help-block with-errors"></div>
       </div>
         <button type="submit" class="btn btn-primary form-submit"> Enviar </button>
       </form>
@@ -131,16 +144,12 @@
   </div>
   </main>
 
-
-
-  
-
-  <script src="../../js/script.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-    <script src="../../node_modules/bootstrap-validator/js/validator.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="../../node_modules/bootstrap-validator/dist/validator.min.js""></script>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
   <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/script.js"></script>
+
 </body>
 
 </html>

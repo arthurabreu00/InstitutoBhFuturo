@@ -166,6 +166,14 @@ body {
     width: 100%;
 }
 
+#intro p {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 0;
+    color: #fff;
+    font-weight: 300;
+}
+
 @media (max-width: 992px) {
     body {
         padding-top: 56px;
