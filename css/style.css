@@ -186,7 +186,7 @@ body {
 
 .apoiadores{
     padding: 100px;
-    background: var(--azul);
+    background: lightgray;
 }
 
 .figure img{
