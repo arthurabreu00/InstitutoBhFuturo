@@ -1,13 +1,24 @@
-$('.form-contato').validator();
+document.querySelectorAll('.figure-img').forEach(figura =>{
+    
 
-$('.form-submit').click(event => {
-    event.preventDefault();
-});
+    // figura.addEventListener('touchmove',()=>{
+    //     let caminho = figura.src;
+    //     figura.src = caminho.replace('-cinza',"");
+    // })
 
-twttr.widgets.createTimeline(
-    {
-      sourceType: "bhfuturo",
-      screenName: "bhfuturo"
-    },
-    document.getElementById("container")
-  );
+    // figura.addEventListener('touchend',()=>{
+    //     let caminho = figura.src;
+    //     figura.src = caminho.replace('.png','-cinza.png')
+    // })
+
+    figura.addEventListener('mouseover',()=>{
+        let caminho = figura.src;
+        figura.src = caminho.replace('-cinza',"");
+    });
+
+    figura.addEventListener('mouseout',()=>{
+        let caminho = figura.src;
+        figura.src = caminho.replace('.png','-cinza.png')
+
+    });
+})  
