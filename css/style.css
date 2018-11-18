@@ -170,7 +170,7 @@ body {
 }
 
 .maps iframe{
-    width: 100%;
+    width: 99%;
 }
 
 #intro p {
@@ -192,9 +192,9 @@ body {
 }
 
 .apoiadores{
-    padding: 100px;
-    padding-top: 50px;
+    padding: 50px 100px;
     background: rgb(182, 187, 183);
+  
 }
 
 .figure img{
@@ -238,7 +238,7 @@ hr.star-light:after {
   font-size: 2em;
 }
 hr.star-light {
-    border-color: rgb(26, 126, 226);
+    border-color: rgb(43, 140, 238);
     width: 600px;
 }
   
@@ -247,9 +247,62 @@ hr.star-light:after {
   background-color: none;
 }
 
+footer{
+    font-family: roboto;
+    font-weight: 600;
+    background:rgb(3, 138, 179)
+}
 
+.info-rodape{
+    border-top: 3px solid #05B2E6;
+}
 
-  
+.info-rodape li{
+    display: inline;
+    margin-right: 20px;
+    list-style: none;   
+}
+    
+.info-rodape a{
+    text-decoration: none;
+    color:white;
+    font-size: roboto;
+}
+
+.info-rodape a:hover{
+    color:#dfdfdf;
+}
+
+.info-rodape-extra{
+    background: rgb(12, 152, 233);
+}
+
+.info-rodape-extra a{
+    color: white;
+}
+
+.bd-footer-links img{
+    max-width: 50px;
+}
+
+.social .fab{
+    font-size: 1.3em;
+}
+
+.info-rodape-extra{
+    padding: 20px;
+}
+
+.titulo-page{
+    margin-top: 1em;
+    padding: 40px;
+    background: var(--vermelho);
+}
+
+.img-exemplo{
+    max-width: 400px;
+}
+
 
 @media (max-width: 992px) {
     body {

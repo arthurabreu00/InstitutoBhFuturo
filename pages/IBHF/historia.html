@@ -1,102 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Instituto BH Futuro - Exemplo</title>
-    <link rel="stylesheet" href="../../css/style.css" />
-    <link rel="stylesheet" href="../../css/index.css" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Instituto BH Futuro</title>
+
+  <link href="../../img/icon.png" rel="icon">
+  <link href="../../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+  <link href="../../css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Padrão de nav-bar -->
-    <menu class="menu bgExemplo">
-        <header>
-            <div class=" icons facebook">
-                <a href="https://www.facebook.com/institutobhfuturo" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html"><img src="../../img/logo-ibhf.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="oqueFazemos.html" id="navbarDropdown" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                IBHF
+              </a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="oqueFazemos.html">Sobre nós</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="historia.html">Historia</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Oque fazemos</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Oficinas</a>
+
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="../Contato/contato.html">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">Apoiadores </a>
+            </li>
+            <li class="nav-item">
+              <span class="badge donation"><a class="nav-link donation-link" href="#">Doação</a></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main ">
+        <h1 class="text-center text-white titulo-page"> História </h1>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col col-lg-7">
+                <p class="text-justify">
+                    O Instituto BH Futuro era, inicialmente, o Espaço Criança Esperança de Belo Horizonte. Após anos de ações bem sucedidas e conquistas sociais, a ONU decidiu reformular o projeto, para adequá-lo à proposta original, que se baseava no desenvolvimento de ações com o foco na educação. 
+                </p>
+
+                <p class="text-justify">
+                    Ao longo da história do Espaço Criança Esperança, atividades voltadas para a formação profissional já eram desenvolvidas. O que antes era uma tendência passou, agora, a ser a base do Instituto: a ideia de se qualificar os jovens da comunidade para o novo mercado de trabalho, que demanda além de conhecimento técnico, uma visão empreendedora.
+                </p>
+
+                <p class="text-justify">
+                    O espaço existente foi mantido, assim como atividades voltadas para a cultura e esporte; além de parcerias de sucesso que contribuíram para o desenvolvimento de milhares de jovens do Aglomerado da Serra, ao longo da existência do antigo Espaço Criança Esperança, agora Instituto BH Futuro.
+                </p>
+
             </div>
-
-            <div class="icons twitter">
-                <a href="https://twitter.com/bhfuturo" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
-
-            <div class="icons instagram">
-                <a href="https://www.instagram.com/bhfuturo/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
-
-            <div class="donation">
-                <span class="donation-txt">Faça Sua Doação</span>
-                <button class="btn-donation">
-                    Doe:
-                    <i class="fas fa-hand-holding-usd"></i>
-                </button>
-            </div>
-        </header>
-
-        <nav id="nav-bar">
-            <div class="logo">
-                <img src="../img/logo-ibhf-branco.png" />
-            </div>
-
-            <div class="nav">
-                    <ul class="drop_menu">
-                            <li><a href="#">IBHF</a>
-                                <ul>
-                                        <li><a href="historia.html">História</a></li>
-                                        <li><a href="oqueFazemos.html">Oque fazemos</a></li>
-                                    <li><a href="#">Diretoria e Conselho</a></li>
-                                </ul>
-                            </li>
-        
-                            <li><a href="#">Noticias</a></li>
-                            <li><a href="#">Apoiadores</a></li>
-                            <li><a href="#">Contato</a></li>
-                            <li><a href="pages/Doacao/doe.html"><span class="btn-donation doe">Doe Agora</span> </a></li>
-                        </ul>
-
-
-            </div>
-            <br>
-        </nav>
-        <!-- Fim do padrão -->
-        <div>
-
-            <div class="conteudo-exemplo">
-                <div class="primeiro-item">
-                    <h1 class="txt-exp"> História </h1>
-                </div>
+            <div class="col col-md-auto ">
+                <img src="../../img/home-investidor.jpg" class="img-exemplo">
             </div>
         </div>
-    </menu>
+       
+    </div>
 
-    <main class="mn-exemplo">
-        <h1 class="conteudo-exemplo"> Conheça um pouco da nossa história!  </h1>
-        <h3 class="desc"> O projeto existe oficialmente desde 2017, mas a caminhada é longa </h3>
+  </main>
 
-        <p>
-            O Instituto BH Futuro era, inicialmente, o Espaço Criança Esperança de Belo Horizonte. Após anos de ações bem sucedidas e conquistas sociais, a ONU decidiu reformular o projeto, para adequá-lo à proposta original, que se baseava no desenvolvimento de ações com o foco na educação. 
-        </p>
 
-        <p>
-            Ao longo da história do Espaço Criança Esperança, atividades voltadas para a formação profissional já eram desenvolvidas. O que antes era uma tendência passou, agora, a ser a base do Instituto: a ideia de se qualificar os jovens da comunidade para o novo mercado de trabalho, que demanda além de conhecimento técnico, uma visão empreendedora.
-        </p>
+  <footer class="footer mt-3">
+        <section class="maps row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.6429147354283!2d-43.914320684494164!3d-19.939446986598472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699a250148705%3A0xef566cafb0a6ce74!2sR.+Des.+Mario+Matos%2C+564+-+Serra%2C+Belo+Horizonte+-+MG%2C+30220-410!5e0!3m2!1spt-BR!2sbr!4v1528830642861"
+            height="200" frameborder="0" style="border:0" data-pin="img/icon.png" allowfullscreen=""></iframe>
+        </section>
+    
+        <section class="info-rodape" >
+            <div class="container-fluid p-3 p-md-5">
+                <ul class="bd-footer-links social">
+                  <li><a href="#"> <img src="../../img/icon.png"></a> </li>
+                  <li><a href="#">IBHF</a></li>
+                  <li><a href="#">Contato</a></li>
+                  <li><a href="#">Apoiadores</a></li>
+                  <li><a href="#">Doações</a></li>
+                  <li><a href="https://twitter.com/bhfuturo"> <i class="fab fa-twitter"></i> </a></li>
+                  <li><a href="https://facebook.com/bhfuturo"> <i class="fab fa-facebook"></i> </a></li>
+                  <li><a href="https://instagram.com/bhfuturo"> <i class="fab fa-instagram"></i> </a></li>
+                </ul>
+                <!-- <p class="text" >Lorem ipsum dolor sit <A href="#">amet </A>, consectetur adipisicing elit. Accusamus id eveniet magni officia numquam mollitia voluptate est quia iste assumenda soluta sed voluptatum minima, facere quas laboriosam  <A href="#">amet </A>sequi laborum ipsam?.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <A href="#">amet </A> Totam facilis cumque sed animi accusantium debitis omnis natus cupiditate voluptatum nisi minima dolorum, corporis voluptas, voluptate laudantium iure libero beatae esse.</p> -->
+            </div>
+        </section>
+    
+        <section class="info-rodape-extra">
+            <div class="container-fluid" align="center">
+                <a href=""> UTRAMIG @ - Todos os direitos reservados </a> <br>
+               Av. Afonso Pena, 3400. Cruzeiro. 30130-009. Belo Horizonte. MG.
+                </div>
+        </section>
+    
+      </footer>
 
-        <p>
-             O espaço existente foi mantido, assim como atividades voltadas para a cultura e esporte; além de parcerias de sucesso que contribuíram para o desenvolvimento de milhares de jovens do Aglomerado da Serra, ao longo da existência do antigo Espaço Criança Esperança, agora Instituto BH Futuro.
-        </p>
-
-        
-    </main>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/script.js"></script>
 
 </body>
-
 </html>

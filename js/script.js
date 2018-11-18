@@ -13,3 +13,5 @@ document.querySelectorAll('.figure-img').forEach(figura =>{
 
     });
 })  
+
+
