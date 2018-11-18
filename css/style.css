@@ -239,7 +239,7 @@ hr.star-light:after {
 }
 hr.star-light {
     border-color: rgb(43, 140, 238);
-    width: 600px;
+    width: 100px;
 }
   
 hr.star-light:after {
