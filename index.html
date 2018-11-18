@@ -15,6 +15,8 @@
   <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
 
   <link href="css/style.css" rel="stylesheet">
+  <!-- Scroll Reveal (animações) -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
 </head>
 
@@ -147,7 +149,6 @@
 
 
 
-
   </div>
 
   <section class="apoiadores mt-2" align="center">
@@ -155,39 +156,39 @@
       <h2 class="text-center text-uppercase text-black news">Apoiadores</h2>
       <hr class="mb-6">
 
-      <figure class="figure">
+      <figure class="figure" id="mrv">
         <a href="">
           <img src="img/parceiros/MRV-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
         </a>
       </figure>
 
-      <figure class="figure">
+      <figure class="figure" id="fmb">
         <a href="">
           <img src="img/parceiros/FMB-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
       </a>
-      <figure class="figure">
+      <figure class="figure" id="globo">
         <img src="img/parceiros/globo-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="puc">
         <img src="img/parceiros/puc-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="mg">
         <img src="img/parceiros/mg-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="amipao">
         <img src="img/parceiros/amipao-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="cemig">
         <img src="img/parceiros/cemig-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="fda">
         <img src="img/parceiros/FDA-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="senai">
         <img src="img/parceiros/senai-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
-      <figure class="figure">
+      <figure class="figure" id="unesco">
         <img src="img/parceiros/unesco-logo-cinza.png" class="figure-img img-fluid rounded" alt="Imagem de um quadrado genérico com bordas arredondadas, em uma figure.">
       </figure>
 
@@ -230,6 +231,65 @@
     </section>
 
   </footer>
+  
+  <script>
+    window.sr = ScrollReveal();
+          sr.reveal('.carousel-caption', {
+              duration: 2000,
+              origin:'top',
+              distance:'300px'
+          });
+          sr.reveal('#unesco', {
+              duration: 2300,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#senai', {
+              duration: 2600,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#fda', {
+              duration: 2900,
+              origin:'left',
+              distance:'300px',
+          });
+          sr.reveal('#cemig', {
+              duration: 3100,
+              origin:'left',
+              distance:'300px',
+          });
+          sr.reveal('#amipao', {
+              duration: 3400,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#mg', {
+              duration: 3700,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#puc', {
+              duration: 4000,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#globo', {
+              duration: 4300,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#fmb', {
+              duration: 4600,
+              origin:'left',
+              distance:'300px'
+          });
+          sr.reveal('#mrv', {
+              duration: 4900,
+              origin:'left',
+              distance:'300px'
+          });
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
