@@ -250,7 +250,7 @@ hr.star-light:after {
 footer{
     font-family: roboto;
     font-weight: 600;
-    background:rgb(3, 138, 179)
+    background:rgb(12, 152, 233)
 }
 
 .info-rodape{
@@ -267,6 +267,12 @@ footer{
     text-decoration: none;
     color:white;
     font-size: roboto;
+}
+
+#midias-sociais {
+    float: right;
+    padding: 0;
+    margin: 13px
 }
 
 .info-rodape a:hover{
