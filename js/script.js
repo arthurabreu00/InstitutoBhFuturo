@@ -14,4 +14,5 @@ document.querySelectorAll('.figure-img').forEach(figura =>{
     });
 })  
 
+$('#contato').validator()
 
