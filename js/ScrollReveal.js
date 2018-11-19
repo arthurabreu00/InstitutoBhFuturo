@@ -4,6 +4,13 @@ sr.reveal('.carousel-caption', {
     origin:'top',
     distance:'300px'
 });
+
+sr.reveal('.titulo-page',{
+    duration:2000,
+    origin:'top',
+    distance:'300px'
+});
+
 sr.reveal('#unesco', {
     duration: 2300,
     origin:'left',
