@@ -112,9 +112,9 @@
     background: #F9B02D !important;
 }
 
-/* nav {
+nav {
     box-shadow: 0px 1px 10px;
-} */
+}
 
 .business-header {
     height: 50vh;
@@ -307,6 +307,11 @@ footer{
 
 .img-exemplo{
     max-width: 400px;
+}
+
+.oficina{
+    margin: 20px 0px;
+   
 }
 
 
