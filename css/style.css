@@ -309,6 +309,9 @@ footer{
     max-width: 400px;
 }
 
+.w-100 {
+    max-height: 20%;
+}
 
 
 @media (max-width: 992px) {
