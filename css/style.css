@@ -308,11 +308,12 @@ footer{
     max-width: 400px;
 }
 
+.w-100 {
+    max-height: 20%;
+}
 .oficina{
     margin: 20px 0px;
-   
 }
-
 
 
 @media (max-width: 992px) {
