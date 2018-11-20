@@ -193,8 +193,7 @@ iframe{
 
 .apoiadores{
     padding: 50px 100px;
-    background: rgb(182, 187, 183);
-  
+    background:var(--amarelo);
 }
 
 .figure img{
@@ -249,7 +248,7 @@ hr.star-light:after {
 
 footer{
     font-family: roboto;
-    font-weight: 600;
+    
     background:rgb(12, 152, 233)
 }
 
