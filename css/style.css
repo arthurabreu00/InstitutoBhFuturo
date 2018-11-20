@@ -112,9 +112,9 @@
     background: #F9B02D !important;
 }
 
-/* nav {
+nav {
     box-shadow: 0px 1px 10px;
-} */
+}
 
 .business-header {
     height: 50vh;
@@ -193,8 +193,7 @@ iframe{
 
 .apoiadores{
     padding: 50px 100px;
-    background: rgb(182, 187, 183);
-  
+    background:var(--amarelo);
 }
 
 .figure img{
@@ -249,7 +248,7 @@ hr.star-light:after {
 
 footer{
     font-family: roboto;
-    font-weight: 600;
+    
     background:rgb(12, 152, 233)
 }
 
@@ -311,6 +310,9 @@ footer{
 
 .w-100 {
     max-height: 20%;
+}
+.oficina{
+    margin: 20px 0px;
 }
 
 
