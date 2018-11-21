@@ -334,7 +334,22 @@ footer{
     margin: 20px 0px;
 }
 
+.comslider_in_point_1716523{
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+}
 
+._2p3a{
+    width: 800px !important;
+}
+
+.fb-page .fb_iframe_widget iframe{
+    width : 800px !important;
+}
+
+.mt--7{
+    margin-top: -7px !important;
+}
 
 @media (max-width: 992px) {
     body {
