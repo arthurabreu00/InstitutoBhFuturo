@@ -339,6 +339,14 @@ footer{
     margin-top: 0 !important;
 }
 
+._2p3a{
+    width: 800px !important;
+}
+
+.fb-page .fb_iframe_widget iframe{
+    width : 800px !important;
+}
+
 .mt--7{
     margin-top: -7px !important;
 }
