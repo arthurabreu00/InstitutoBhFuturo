@@ -201,8 +201,12 @@ iframe{
     color:#4E4948;
 }
 
-.news{
+.cmspu{
+    display: none !important;
+}
 
+.news{
+    color:white;
     font-family: Acme;
     font-weight: 300;
 }
@@ -326,25 +330,10 @@ footer{
     max-width: 400px;
 }
 
-.w-100 {
-    max-height: 700px
-}
 .oficina{
     margin: 20px 0px;
 }
 
-/* .bg-header{
-    padding: 50%;
-    background-image: url(../img/megabanner.jpg);
-} */
-
-.carousel-caption{
-    display: inline; 
-    text-align: center;
-    padding: 0px !important;
-    margin: 0px !important;
-    padding-bottom: 900px;
-}
 
 
 @media (max-width: 992px) {
