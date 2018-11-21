@@ -1,8 +1,21 @@
+import jquery;
+
 window.sr = ScrollReveal();
 
-
 sr.reveal('.titulo-page',{
-    duration:2000,
+    duration: 2000,
+    origin:'left',
+    distance:'300px'
+});
+
+sr.reveal('#midia',{
+    duration: 2100,
+    origin:'top',
+    distance:'300px'
+});
+
+sr.reveal('#apoiadores',{
+    duration: 2200,
     origin:'top',
     distance:'300px'
 });
