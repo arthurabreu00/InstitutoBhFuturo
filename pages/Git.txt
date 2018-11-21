@@ -1,8 +1,0 @@
-Git clone // Primeira vez
-
-git add .
-git commit -m "mensagem"
-git push // Subir arquivos
-
-git checkout -b 'Caio'
-git push --set-upstream origin 'Caio'
