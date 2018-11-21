@@ -1,9 +1,5 @@
 window.sr = ScrollReveal();
-sr.reveal('.carousel-caption', {
-    duration: 2000,
-    origin:'top',
-    distance:'300px'
-});
+
 
 sr.reveal('.titulo-page',{
     duration:2000,

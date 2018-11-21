@@ -16,4 +16,4 @@ document.querySelectorAll('.figure-img').forEach(figura =>{
 
 // $('#contato').validator()
 
-document.querySelector("#comSContainer1716523_ a").href = "#";
+// document.querySelector("#comSContainer1716523_ a").href = "#";
