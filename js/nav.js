@@ -15,11 +15,10 @@ document.querySelector('header').innerHTML += ` <nav class="navbar navbar-expand
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="oqueFazemos.html">Sobre nós</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="historia.html">Historia</a>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Oque fazemos</a>
+          <a class="dropdown-item" href="oqueFazemos.html">Oque fazemos</a>
 
 
         </div>

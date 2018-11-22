@@ -367,18 +367,11 @@ footer{
     .img-exemplo{
         max-width: 300px;
     }
+
+    .paypal{
+        margin-top: 10px;
+    }
     
 
 }
 
-@media(max-width: 564px){
-    #carouselExampleIndicators{
-        margin-top: 50px;
-    }
-    #carouselExampleIndicators h1{
-        font-size: 1.1em;
-    }
-    #carouselExampleIndicators p{
-        font-size: 0.6em;
-    }
-}

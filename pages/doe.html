@@ -1,96 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Instituto BH Futuro - Exemplo</title>
-    <link rel="stylesheet" href="../../css/style.css" />
-    <link rel="stylesheet" href="../../css/index.css" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Instituto BH Futuro</title>
+
+  <link href="../../img/icon.png" rel="icon">
+  <link href="../../node_modules/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+  <link href="../../node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+  <link href="../../css/style.css" rel="stylesheet">
+
 </head>
 
 <body>
 
-    <!-- Padrão de nav-bar -->
-    <menu class="menu bgExemplo">
-        <header>
-            <div class=" icons facebook">
-                <a href="https://www.facebook.com/institutobhfuturo" target="_blank">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </div>
+  <!-- Navigation -->
+  <header>
+    <script src="../js/nav.js"></script>
+  </header>
 
-            <div class="icons twitter">
-                <a href="https://twitter.com/bhfuturo" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </div>
+  <main class="main ">
+        <h1 class="text-center text-white titulo-page"> DOAÇÕES </h1>
+    <div class="container mt-4">
+        <div class="row">
 
-            <div class="icons instagram">
-                <a href="https://www.instagram.com/bhfuturo/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </div>
+            <div class="col col-lg-12">
+                <p class="text-justify">
+                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi vitae deleniti asperiores, hic iure ipsam, excepturi officiis est consequuntur eius omnis non aut nostrum! Ullam quaerat laboriosam rem quas!
+                </p>
 
-            <div class="donation">
-                <span class="donation-txt">Faça Sua Doação</span>
-                <button class="btn-donation">
-                    Doe:
-                    <i class="fas fa-hand-holding-usd"></i>
-                </button>
-            </div>
-        </header>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi vitae deleniti asperiores, hic iure ipsam, excepturi officiis est consequuntur eius omnis non aut nostrum! Ullam quaerat laboriosam rem quas!
+                </p>
 
-        <nav id="nav-bar">
-            <div class="logo">
-                <img src="../img/logo-ibhf-branco.png" />
-            </div>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi vitae deleniti asperiores, hic iure ipsam, excepturi officiis est consequuntur eius omnis non aut nostrum! Ullam quaerat laboriosam rem quas!
+                </p>
 
-            <div class="nav">
-                <ul class="drop_menu">
-                    <li><a href="#">Sobre o IBHF</a>
-                        <ul>
-                            <li><a href="#">Oque fazemos</a></li>
-                            <li><a href="#">Diretoria e Conselho</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="#">História</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Apoiadores</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li><a href="#"><span class="btn-donation doe">Doe Agora</span> </a></li>
-                </ul>
-
-
-            </div>
-            <br>
-        </nav>
-        <!-- Fim do padrão -->
-        <div>
-
-            <div class="conteudo-exemplo">
-                <div class="primeiro-item">
-                    <h1 class="txt-exp"> Doação </h1>
-                </div>
+                <p >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis commodi vitae deleniti asperiores, hic iure ipsam, excepturi officiis est consequuntur eius omnis non aut nostrum! Ullam quaerat laboriosam rem quas!
+                </p>
             </div>
         </div>
-    </menu>
 
-    <main class="mn-exemplo">
-        <h1 class="conteudo-exemplo"> Você pode ajudar o Instituto a continuar melhorando a vida de jovens  </h1>
-        <h3 class="desc"> Através da sua doação, as atividades do IBHF podem continuar!</h3>
+        <div class="row mt-3">
+            <div class="col col-lg-2 pagseguro">
+                    <button class="btn btn-success"> Doe com Pagseguro </button>
+                    <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+                    <form style="position:absolute; top:0;left:0;opacity:0;" target="_blank" action="https://pagseguro.uol.com.br/checkout/v2/donation.html" method="post">
+                    <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+                    <input type="hidden" name="currency" value="BRL" />
+                    <input type="hidden" name="receiverEmail" value="coordenacao.ibhf@gmail.com" />
+                    <input type="hidden" name="iot" value="button" />
+                    <input type="image" src="https://stc.pagseguro.uol.com.br/public/img/botoes/doacoes/209x48-doar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+                    </form>
+                    <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+            </div>
 
-        <p>
-            Atualmente, o Instituto atende cerca de 1200 crianças e adolescentes, em várias oficinas e atividades, com foco em uma formação cidadã e profissional. Como ainda não existe uma forma fixa de renda, o Instituto depende de doações para continuar desenvolvendo suas ações.
-        </p>
+            <div class="col-lg-2 paypal ">
+                    <button class="btn btn-primary"> Doe com paypal </button>
+                    <form target="_blank" style="position:absolute; top:0;left:0;opacity:0;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick">
+                        <input type="hidden" name="hosted_button_id" value="MS5QQYZD7Z9FQ">
+                        <input type="image" src=" " border="0" name="submit" alt="PayPal - A maneira fácil e segura de enviar pagamentos online!">
+                        <img alt="" border="0" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" width="1" height="1">
+                    </form>
+                   
+            </div>
 
-        <p>
-            Para ajudar o projeto a continuar crescendo e ajudando mais crianças e adolescentes, você pode doar qualquer quantia, através do PagSeguro ou PayPal
-        </p>
-    </main>
+        </div>
+       
+    </div>
 
+  </main>
+
+
+
+  <footer class="footer mt-3">
+        <section class="maps row">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.6429147354283!2d-43.914320684494164!3d-19.939446986598472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699a250148705%3A0xef566cafb0a6ce74!2sR.+Des.+Mario+Matos%2C+564+-+Serra%2C+Belo+Horizonte+-+MG%2C+30220-410!5e0!3m2!1spt-BR!2sbr!4v1528830642861"
+            height="200" frameborder="0" style="border:0" data-pin="img/icon.png" allowfullscreen=""></iframe>
+        </section>
+    
+        <section class="info-rodape" >
+            <div class="container-fluid p-3 p-md-5">
+                <ul class="bd-footer-links social">
+                  <li><a href="#"> <img src="../../img/icon.png"></a> </li>
+                  <li><a href="#">IBHF</a></li>
+                  <li><a href="#">Contato</a></li>
+                  <li><a href="#">Apoiadores</a></li>
+                  <li><a href="#">Doações</a></li>
+                  <li><a href="https://twitter.com/bhfuturo"> <i class="fab fa-twitter"></i> </a></li>
+                  <li><a href="https://facebook.com/bhfuturo"> <i class="fab fa-facebook"></i> </a></li>
+                  <li><a href="https://instagram.com/bhfuturo"> <i class="fab fa-instagram"></i> </a></li>
+                </ul>
+                <!-- <p class="text" >Lorem ipsum dolor sit <A href="#">amet </A>, consectetur adipisicing elit. Accusamus id eveniet magni officia numquam mollitia voluptate est quia iste assumenda soluta sed voluptatum minima, facere quas laboriosam  <A href="#">amet </A>sequi laborum ipsam?.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <A href="#">amet </A> Totam facilis cumque sed animi accusantium debitis omnis natus cupiditate voluptatum nisi minima dolorum, corporis voluptas, voluptate laudantium iure libero beatae esse.</p> -->
+            </div>
+        </section>
+    
+        <section class="info-rodape-extra">
+            <div class="container-fluid" align="center">
+                <a href=""> UTRAMIG @ - Todos os direitos reservados </a> <br>
+               Av. Afonso Pena, 3400. Cruzeiro. 30130-009. Belo Horizonte. MG.
+                </div>
+        </section>
+    
+      </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../../js/script.js"></script>
+  <script src="../../js/ScrollReveal.js"></script>
 </body>
-
 </html>
