@@ -1,5 +1,3 @@
-import jquery;
-
 window.sr = ScrollReveal();
 
 sr.reveal('.titulo-page',{
