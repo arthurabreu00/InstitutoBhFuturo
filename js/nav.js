@@ -15,7 +15,7 @@ document.querySelector('header').innerHTML += ` <nav class="navbar navbar-expand
         </a>
 
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <div class="dropdown-divider"></div>
+
           <a class="dropdown-item" href="historia.html">Historia</a>
           <div class="dropdown-divider"></div>
           <a class="dropdown-item" href="oqueFazemos.html">Oque fazemos</a>
