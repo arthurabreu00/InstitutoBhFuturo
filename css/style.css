@@ -351,6 +351,60 @@ footer{
     margin-top: -7px !important;
 }
 
+input{
+    max-width: 600px;
+}
+
+ul.list-unstyled li{
+    font-size: 0.8em;
+}
+
+label{
+    font-size: 0.8em;
+    margin-left:px;
+    color:rgb(189, 189, 189);
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: none;
+    border-bottom: 1px solid rgb(153, 0, 255);
+    color:rgb(153, 0, 255);
+} 
+
+.txt{
+    color:rgb(189, 189, 189);
+    padding: 2px;
+    border-bottom: rgb(161, 161, 161);
+    outline: none;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    width: 100%;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.bg-purple{
+    background: rgb(92, 74, 180);
+}
+
+.btn-purple{
+    background: rgb(92, 74, 180);
+    color:white; 
+}
+
+
+.btn-purple:focus{
+    box-shadow: 0 0 0 0.2rem  rgb(153, 0, 255)
+}
+
+
+
+
 @media (max-width: 992px) {
     body {
         padding-top: 56px;
