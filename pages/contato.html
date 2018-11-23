@@ -26,78 +26,45 @@
   </header>
 
   <main class="main">
-    <h1 class="text-center text-white titulo-page"> Contato </h1>
+    <h1 class="text-center text-white titulo-page bg-purple"> Contato </h1>
     <div class="container mt-4">
       <div class="row">
         <div class="col col-lg-6">
           <form action="form.php" method="post" data-toggle="validator" id="contato">
-            <div class="form-group">
-              <label>Nome:</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text" name="nome" aria-required="true" id="nome"><i class="fas fa-user"></i></span>
-                </div>
-
-                <input type="search" placeholder="Digite seu nome" class="form-control" required> <br>
-                <span class="ml-2 text-danger">* </span>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors text-danger"> </div>
 
 
-
-
+              <div class="form-group">
+                  <label>Nome</label> 
+                  <input type="text" class="txt" name="nome" id="nome" required/>
+                  <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                  <div class="help-block with-errors text-danger"></div>
               </div>
-            </div>
 
-            <div class="form-group">
-              <label>E-mail:</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class=", input-group-text" name="email" id="email"><i class="fas fa-at"></i></span>
-                </div>
-                <input required type="email" placeholder="Digite seu e-mail" class="form-control"> <span class="ml-2 text-danger">*</span>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors text-danger"> </div>
+              <div class="form-group">
+                <label>E-mail</label> 
+                <input type="email" class="txt" id="email" name="email" required />
 
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label>Assunto</label>
-              <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                  <span class=", input-group-text" name="assunto" id="assunto"><i class="fas fa-envelope"></i></span>
-                </div>
-                <input required type="text" placeholder="Digite seu assunto" class="form-control"> <span class="ml-2 text-danger">*</span>
-                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                <div class="help-block with-errors text-danger"> </div>
-
-              </div>
-            </div>
-
-            <div class="form-group">
-              <label>Mensagem: </label>
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <span class="input-group-text"><i class="fas fa-comment-alt"></i></span>
-                </div>
-                <textarea required class="form-control" id="mensagem" placeholder="Digite sua mensagem" aria-required="true"
-                  name="mensagem"></textarea>
-                <span class="ml-2 text-danger">*</span>
                 <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                 <div class="help-block with-errors text-danger"> </div>
               </div>
-            </div>
 
-            <div class="mt-4 mb-4">
-              <h6>
-                <span class="text-danger"> * </span> Campos obrigatorios!
-              </h6>
-            </div>
+              <div class="form-group">
+                  <label>Assunto </label> 
+                  <input type="text" class="txt" id="assunto" name="assunto" required />
+  
+                  <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                  <div class="help-block with-errors text-danger"> </div>
+                </div>
 
+              <div class="form-group">
+                  <label>Mensagem</label> 
+                  <textarea  class="txt" id="mensagem" name="mensagem" required > </textarea>
+                  <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                  <div class="help-block with-errors text-danger"> </div>
+                </div>
             <div class="mt-4 mb-4">
               <button type="reset" class="btn btn-outline-secondary">Resetar</button>
-              <button type="submit" class="btn btn-primary ml-2"> Enviar </button>
+              <button type="submit" class="btn btn-purple ml-2"> Enviar </button>
             </div>
 
 
