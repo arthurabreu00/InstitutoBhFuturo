@@ -12,9 +12,5 @@ document.querySelectorAll('.figure-img').forEach(figura =>{
         figura.src = caminho.replace('.png','-cinza.png')
 
     });
-})  
-
-// $('#contato').validator()
-
-// document.querySelector("#comSContainer1716523_ a").href = "#";
+})
 

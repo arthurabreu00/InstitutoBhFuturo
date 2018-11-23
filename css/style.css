@@ -268,9 +268,6 @@ footer{
     background:rgb(12, 152, 233)
 }
 
-.info-rodape{
-    border-top: 3px solid #05B2E6;
-}
 
 .info-rodape li{
     display: inline;
@@ -326,25 +323,13 @@ footer{
     font-weight: 600;
 }
 
+
 .img-exemplo{
     max-width: 400px;
 }
 
 .oficina{
     margin: 20px 0px;
-}
-
-.comslider_in_point_1716523{
-    padding-bottom: 0 !important;
-    margin-top: 0 !important;
-}
-
-._2p3a{
-    width: 800px !important;
-}
-
-.fb-page .fb_iframe_widget iframe{
-    width : 800px !important;
 }
 
 .mt--7{
@@ -400,6 +385,14 @@ textarea:focus, input:focus, select:focus {
 
 .btn-purple:focus{
     box-shadow: 0 0 0 0.2rem  rgb(153, 0, 255)
+}
+
+.info-rodape-extra i{
+    color:rgb(3, 56, 87)
+}
+
+.info-rodape-extra:hover{
+    color:rgb(3, 56, 87)
 }
 
 
