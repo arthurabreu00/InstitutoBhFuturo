@@ -395,7 +395,13 @@ textarea:focus, input:focus, select:focus {
     color:rgb(3, 56, 87)
 }
 
+.figure{
+    margin-left: 20px;
+}
 
+.navbar-light .navbar-nav .nav-link{
+    font-size: 1.2em;
+}
 
 
 @media (max-width: 992px) {
